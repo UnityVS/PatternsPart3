@@ -1,5 +1,4 @@
 using Assets.Scripts.Core;
-using System;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -17,11 +16,4 @@ public class Player : MonoBehaviour
     public Health PlayerHealth => _health;
 
     public Experience PlayerExperience => _experience;
-}
-
-[Serializable]
-[CreateAssetMenu(fileName = "PlayerSO", menuName = "SO/PlayerSO")]
-public class PlayerSO : ScriptableObject
-{
-    [field: SerializeField, Range(1, 50)] public int Health { get; private set; }
 }

@@ -1,6 +1,7 @@
 ﻿using Assets.Scripts.MediatorPattern;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Assets.Scripts.UI
 {
@@ -8,7 +9,10 @@ namespace Assets.Scripts.UI
     {
         [SerializeField] private TextMeshProUGUI playerLevelText;
         [SerializeField] private TextMeshProUGUI playerHPText;
+        [SerializeField] private Image coinImage;
         private UIMediator _uiMediator;
+
+        public Image CoinImage => coinImage;
 
         public void Inititalize(UIMediator uiMediator) => _uiMediator = uiMediator;
 

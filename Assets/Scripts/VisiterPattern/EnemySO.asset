@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d6151078f2800f46a2c97f2608fb83b, type: 3}
+  m_Name: EnemySO
+  m_EditorClassIdentifier: 
+  enemyList:
+  - <EnemyType>k__BackingField: 6
+    <EnemyPrefab>k__BackingField: {fileID: 7040552260776207565, guid: 5ed4b6770de61d145affbea99a8cfcd2, type: 3}
+    <Weight>k__BackingField: 11
+    <EnemyColor>k__BackingField: {r: 0.8679245, g: 0.23253822, b: 0.23253822, a: 1}
+    <EnemyStats>k__BackingField:
+    - <EStateTypeValue>k__BackingField: 0
+      <StatValue>k__BackingField: 1
+    - <EStateTypeValue>k__BackingField: 1
+      <StatValue>k__BackingField: 2
+    - <EStateTypeValue>k__BackingField: 2
+      <StatValue>k__BackingField: 3
+    <EnemyStatsDecorator>k__BackingField:
+    - <EStateTypeValue>k__BackingField: 0
+      <EDecorationType>k__BackingField: 1
+      <StatValue>k__BackingField: 1.5
+  - <EnemyType>k__BackingField: 2
+    <EnemyPrefab>k__BackingField: {fileID: 7040552260776207565, guid: 5ed4b6770de61d145affbea99a8cfcd2, type: 3}
+    <Weight>k__BackingField: 2
+    <EnemyColor>k__BackingField: {r: 0.322078, g: 1, b: 0, a: 1}
+    <EnemyStats>k__BackingField:
+    - <EStateTypeValue>k__BackingField: 0
+      <StatValue>k__BackingField: 2
+    - <EStateTypeValue>k__BackingField: 1
+      <StatValue>k__BackingField: 2
+    - <EStateTypeValue>k__BackingField: 2
+      <StatValue>k__BackingField: 2
+    <EnemyStatsDecorator>k__BackingField:
+    - <EStateTypeValue>k__BackingField: 1
+      <EDecorationType>k__BackingField: 2
+      <StatValue>k__BackingField: 2
+    - <EStateTypeValue>k__BackingField: 2
+      <EDecorationType>k__BackingField: 1
+      <StatValue>k__BackingField: 3
+  - <EnemyType>k__BackingField: 1
+    <EnemyPrefab>k__BackingField: {fileID: 7040552260776207565, guid: 5ed4b6770de61d145affbea99a8cfcd2, type: 3}
+    <Weight>k__BackingField: 5
+    <EnemyColor>k__BackingField: {r: 0.2396226, g: 0.73240423, b: 1, a: 1}
+    <EnemyStats>k__BackingField:
+    - <EStateTypeValue>k__BackingField: 0
+      <StatValue>k__BackingField: 4
+    - <EStateTypeValue>k__BackingField: 1
+      <StatValue>k__BackingField: 4
+    - <EStateTypeValue>k__BackingField: 2
+      <StatValue>k__BackingField: 4
+    <EnemyStatsDecorator>k__BackingField: []
+  - <EnemyType>k__BackingField: 3
+    <EnemyPrefab>k__BackingField: {fileID: 7040552260776207565, guid: 5ed4b6770de61d145affbea99a8cfcd2, type: 3}
+    <Weight>k__BackingField: 5
+    <EnemyColor>k__BackingField: {r: 0.25649694, g: 0.5188679, b: 0.47422692, a: 1}
+    <EnemyStats>k__BackingField:
+    - <EStateTypeValue>k__BackingField: 0
+      <StatValue>k__BackingField: 2
+    - <EStateTypeValue>k__BackingField: 1
+      <StatValue>k__BackingField: 1
+    - <EStateTypeValue>k__BackingField: 2
+      <StatValue>k__BackingField: 6
+    <EnemyStatsDecorator>k__BackingField:
+    - <EStateTypeValue>k__BackingField: 1
+      <EDecorationType>k__BackingField: 2
+      <StatValue>k__BackingField: 2
+    - <EStateTypeValue>k__BackingField: 0
+      <EDecorationType>k__BackingField: 2
+      <StatValue>k__BackingField: 2
+    - <EStateTypeValue>k__BackingField: 2
+      <EDecorationType>k__BackingField: 3
+      <StatValue>k__BackingField: 3

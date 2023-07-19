@@ -8,7 +8,10 @@ namespace Assets.Scripts.UI
     {
         [SerializeField] private Button restartButton;
         [SerializeField] private GameObject loseWindow;
+        [SerializeField] private Image coinImage;
         private UIMediator _uiMediator;
+
+        public Image CoinImage => coinImage;
 
         public void Inititalize(UIMediator uiMediator) => _uiMediator = uiMediator;
 
